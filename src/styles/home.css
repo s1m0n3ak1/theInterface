@@ -1,0 +1,106 @@
+.texts {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: #5f5f5f;
+    line-height: 1.6;
+    margin: 10px 0 1px;
+}
+.date {
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    margin: 8px 0 1px;
+}
+
+/* Special Typography */
+.latest-primary h2 {
+    font-size: 24px;
+    line-height: 30px;
+    -webkit-line-clamp: 4;
+    -moz-line-clamp: 4;
+}
+
+/* Latest Primary */
+.homepage-latest-news {
+    display:grid;
+    grid-template-columns: calc(53% - 15px) calc(47% - 10px);
+    grid-template-rows: 375px;
+    grid-gap: 25px;
+}
+.latest-primary {
+    display: flex;
+}
+.latest-primary figure {
+    min-width: 365px;
+    height: 375px;
+    background-color: #efefef;
+}
+.latest-primary-texts {
+    padding-left: 20px;
+}
+.latest-primary-texts .texts {
+    font-size: 16px;
+    -webkit-line-clamp: 6;
+    -moz-line-clamp: 6;
+}
+
+/* Secondary Primary */
+.latest-secondary article {
+    display: flex;
+}
+.latest-secondary figure {
+    min-width: 187px;
+    height: 187px;
+    background-color: #efefef;
+}
+.secondary-texts {
+    padding: 0 20px;
+}
+.secondary-texts h2 {
+    font-size: 21px;
+    line-height: 28px;
+    -webkit-line-clamp: 2;
+    -moz-line-clamp: 2;
+}
+.secondary-texts .texts {
+    -webkit-line-clamp: 2;
+    -moz-line-clamp: 2;
+}
+
+/* Secondary Carousel */
+.homepage-secondary-news {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 115px;
+    grid-gap: 0;
+    border-top: 1px solid #ebebeb;
+    padding: 30px 0;
+    margin: 30px 20px 0 20px;
+}
+.homepage-secondary-news [class^="block-"] {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.homepage-secondary-news h5 {
+    margin-top: 0;
+}
+.homepage-secondary-news h2 {
+    font-size: 16px;
+    line-height: 21px;
+    -webkit-line-clamp: 3;
+    -moz-line-clamp: 3;
+}
+
+/* text cutting in css */
+.secondary-texts h2,
+.homepage-secondary-news h2,
+.latest-primary h2,
+.secondary-texts .texts,
+.latest-primary-texts .texts {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+}
