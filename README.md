@@ -1,5 +1,7 @@
 # Project Blog / News Project
-As i have some years of experiences in design and project development with HTML, CSS, JS and React i decided to make a project a bit more complex than a simple blog.
+As I have some years of experiences in design and project development with HTML, CSS, JS and React, I decided to make a project a bit more complex than a simple blog. I have included the chance to navigate to the post by clicking to the main news present in homepage (Uber news), and from the blog post just click on the website Brand / Logo on the top header or bottm footer to navigate back to the homepage.
+
+I decided to keep the structure simple by not using Javascript and use 100% CSS to achieve the result that i had in my mind.
 
 ### Valid HTML
 - [x] HTML5 semantic tags such as <header>, <footer>, <article>, <section> , etc. are used to add meaning to the code.
