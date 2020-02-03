@@ -1,4 +1,4 @@
-@import "/assets/styles/common.css";
+@import url("common.css");
 
 .single-article { padding: 0.5px 0 10px; }
 .main-article article {

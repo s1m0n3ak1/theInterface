@@ -1,4 +1,4 @@
-@import "/assets/styles/common.css";
+@import url("common.css");
 
 /* Special Typography */
 .latest-primary h2 {
