@@ -1,0 +1,10 @@
+.icon { display: inline-block; }
+
+.icon.small {
+    width: 24px;
+    height: 24px;
+}
+
+.icon.magifier { background-image: url("../../images/search-icon.svg"); }
+
+.icon.hamburger { background-image: url("../../images/hamburger-icon.svg"); }

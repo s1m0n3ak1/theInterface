@@ -1,0 +1,23 @@
+/* reset */
+* { box-sizing: border-box; }
+
+body, html, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body { font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif; }
+
+ul {
+    list-style: none;
+    align-self: flex-end;
+}
+
+ul li { display: inline-block; }
+
+ul li a { text-decoration: none; }
+
+a { 
+    text-decoration: none;
+    color: unset;
+}

@@ -1,0 +1,41 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    min-height: 50px;
+    min-width: 80px;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    background-color: #efefef;
+    color: #000;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn.in-article {
+    font-size: 14px;
+    min-height: 30px;
+    background-color: #fff;
+    border: 1px solid #0f78b1;
+    color: #0f78b1;
+    margin-top: 12px;
+    max-width: 100px;
+    padding: 0 10px;
+}
+
+.btn.big { font-size: 16px; }
+
+.btn.slanted { width: 240px; }
+
+.btn.pale-yellow { background-color: #E6CE16; }
+
+.btn.pale-yellow:hover { background-color: #f4e573; }
+
+.btn.light-green { background-color: #AEFF57; }
+
+.btn.light-green:hover { background-color: #dfffb9; }

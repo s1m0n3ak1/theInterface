@@ -1,3 +1,5 @@
+@import "/assets/styles/common.css";
+
 .single-article { padding: 0.5px 0 10px; }
 .main-article article {
     align-items: flex-start;
@@ -148,10 +150,11 @@
 }
 
 .related-news [class^="block-"] .date {
-    border-bottom: 1px solid #e2e2e2;
-    padding-bottom: 20px;
     font-size: 16px;
-    margin-top: 12px;
+}
+
+.related-news [class^="block-"] .btn {
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1100px) {
