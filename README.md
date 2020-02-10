@@ -4,7 +4,7 @@ As I have some years of experiences in design and project development with HTML,
 I decided to keep the structure simple by not using Javascript and use 100% CSS to achieve the result that i had in my mind.
 
 ### Valid HTML
-- [x] HTML5 semantic tags such as <header>, <footer>, <article>, <section> , etc. are used to add meaning to the code.
+- [x] HTML5 semantic tags such as header, footer, article, section, etc. are used to add meaning to the code.
 - [x] No div or section selectors are without a CSS class or id.
 
 ### HTML Formatting Rules
